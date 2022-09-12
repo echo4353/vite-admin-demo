@@ -1,0 +1,40 @@
+{
+  "name": "vite-admin-app",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cross-env VITE_APP_PROXY_URL=dev vite",
+    "test": "cross-env VITE_APP_PROXY_URL=test vite",
+    "prod": "cross-env VITE_APP_PROXY_URL=production vite",
+    "build:test": "cross-env VITE_APP_PROXY_URL=test vite build",
+    "build:prod": "cross-env VITE_APP_PROXY_URL=production vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@tinymce/tinymce-vue": "^4.0.7",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "cross-env": "^7.0.3",
+    "driver.js": "^0.9.8",
+    "element-plus": "^2.2.6",
+    "js-cookie": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "screenfull": "^5.1.0",
+    "tiny-watermark": "^2.1.0",
+    "tinymce": "^6.1.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "eslint-plugin-vue": "^8.0.3",
+    "fast-glob": "^3.2.11",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
+    "vite": "^2.9.15",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}

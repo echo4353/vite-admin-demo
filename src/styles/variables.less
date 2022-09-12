@@ -1,0 +1,30 @@
+@menuText: #bfcbd9;
+@menuActiveText: #fff;
+@subMenuActiveText: #f4f4f5;
+
+@menuBg: #304156;
+@menuHover: #263445;
+
+@subMenuBg: #1f2d3d;
+@subMenuHover: #001528;
+
+@sideBarWidth: 210px;
+@hiddenSideBarWidth: 54px;
+@sideBarDuration: 0.28s;
+@tagViewsList: #1e90ff;
+
+// 从js 与less共享变量，在less中通过：export导出，在js中通过ESM进行导入
+:export{
+  name: "less";
+  menutext: @menuText;
+  menuactivetext: @menuActiveText;
+  submenuactivetext: @subMenuActiveText;
+  menubg: @menuBg;
+  menuhover: @menuHover;
+  submenubg: @subMenuBg;
+  submenuhover: @subMenuHover;
+  sidebarwidth: @sideBarWidth;
+  hiddensidebarwidth: @hiddenSideBarWidth;
+  tagViewsList: #1e90ff;
+}
+
